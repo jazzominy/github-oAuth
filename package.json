@@ -1,0 +1,20 @@
+{
+  "name": "github-oauth",
+  "version": "1.0.0",
+  "description": "OAuth app that implements login flow",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node server"
+  },
+  "author": "Jasmine Hirpara",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.4",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
